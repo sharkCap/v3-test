@@ -43,7 +43,7 @@ interface PromiseRes {
 export default defineComponent({
   name: 'FormDemo',
   setup() {
-    const formValues: formValues = reactive({
+    const formValues = reactive<formValues>({
       name: '',
       password: ''
     });
